@@ -1,0 +1,85 @@
+body {
+    background-color: #39a4d6;
+}
+#sitetitle > h1 {
+    font-size:65px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display:inline;
+    text-align:center;
+    padding-left:15%;    
+}
+
+h2 {
+    font-size:45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+}
+
+div.bad {
+    font-size: 30px;
+    color: red;
+}
+
+#navigation {
+    text-align:center;
+}
+#navigation > ol, #navigation > ol > li {
+    font-size:30px;
+    list-style-type:none;
+    display:inline-block;
+    text-align:center;
+    margin-left: 30px;
+}
+
+#content {
+    border: 2px solid #219ed6;
+    border-style:outset;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    clear: right;
+    padding: 30 30;
+    margin: 0 30;
+    font-size: 25px;
+    min-height: 50%;
+    position:relative;
+
+}
+
+#sitetitle > #sitelogo {
+    height: 65px;
+}
+
+.active {
+    color: orange;
+}
+
+#footer {
+    margin:auto;
+    width: 50%;
+    padding: 10px;
+    clear:both;
+    position: absolute;
+    bottom: 0;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 15 0;
+}
+
+table, th, td {
+    border: 3px solid #cccccc;
+}
+
+
+th {
+    background-color: #aaaaaa;
+}
+
+td {
+    font-size: 15px;
+    padding: 10 13;
+}
+
+

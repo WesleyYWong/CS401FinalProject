@@ -1,0 +1,33 @@
+input {
+    margin: 5 5;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 1 px;
+   
+}
+
+table {
+    border-collapse: collapse;
+    margin: 15 0;
+}
+
+table, th, td {
+    border: 3px solid #cccccc;
+}
+
+th {
+    background-color: #aaaaaa;
+}
+
+td {
+    font-size: 15px;
+    padding: 10 13;
+}
+
+#application{
+    text-align:center;
+} 
+
+#email {
+    margin-right: 10px;
+}

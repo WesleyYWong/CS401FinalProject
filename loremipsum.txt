@@ -1,0 +1,4 @@
+This is where people put things about themsevles like jobs, hobbies, and interests. When you apply for a volunteer position
+            the organizations can get a link to this page so they can check out your personality to help them make a decision. For
+            organization they put information about themselves such as org fouding, goals, link to charitynav, etc. It also has buttons to
+            edit the profile and buttons to make a new post.

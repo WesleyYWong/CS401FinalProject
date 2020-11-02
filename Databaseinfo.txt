@@ -1,0 +1,7 @@
+mysql://bdd22c69b79cd9:2810ef45@us-cdbr-east-02.cleardb.com/heroku_ac3edd1a10e476e?reconnect=true
+
+DB_HOST Host Name:us-cdbr-east-02.cleardb.com
+DB_DATABASE default schema: heroku_ac3edd1a10e476e
+DB_USERNAME : bdd22c69b79cd9
+DB_Password: 2810ef45
+
