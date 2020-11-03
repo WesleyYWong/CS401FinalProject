@@ -3,3 +3,10 @@
 1604354412 - INFO  --> getting a connection 
 1604354414 - INFO  --> getting a connection 
 1604354415 - INFO  --> getting a connection 
+1604362150 - INFO  --> getting a connection 
+1604362150 - INFO  --> getting userID with [wesleyywong@gmail.com] 
+1604362166 - INFO  --> getting a connection 
+1604362182 - INFO  --> getting a connection 
+1604362185 - INFO  --> getting a connection 
+1604362188 - INFO  --> getting a connection 
+1604362256 - INFO  --> getting a connection 

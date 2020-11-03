@@ -32,7 +32,7 @@ class Dao {
 
   public function addUser($email, $password) {
     $conn = $this->getConnection();
-    //$logger->LogInfo("Adding user [{$email}]");
+    $this->logger->LogInfo("Adding user [{$email}]");
     $addUserQuery = "insert into users (email, password, role) values (:email, :password, 1)";
     $q = $conn->prepare($addUserQuery);
     $q->bindParam(":email", $email);
@@ -45,7 +45,7 @@ class Dao {
 
   public function addProfile($fname, $lname, $userID) {
     $conn = $this->getConnection();
-    //$logger->LogInfo("Adding user profile [{$fname}] [{$lname}]");
+    $this->logger->LogInfo("Adding user profile [{$fname}] [{$lname}]");
     $defaultpfp = "hummingbird.jpg";
     $addProfileQuery ="insert into profiles (fName, lName, userID, pfplink) values (:fName, :lName, :userID, :pfplink)";
     $q = $conn->prepare($addProfileQuery);
@@ -60,6 +60,7 @@ class Dao {
 
   public function getUserID($email){
     $conn = $this->getConnection();
+    $this->logger->LogInfo("getting userID with [{$email}]");
     $getIDQuery = "select userID from users where email = :email";
     $q = $conn->prepare($getIDQuery);
     $q->bindParam("email", $email);
