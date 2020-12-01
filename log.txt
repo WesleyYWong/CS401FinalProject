@@ -10,3 +10,28 @@
 1604362185 - INFO  --> getting a connection 
 1604362188 - INFO  --> getting a connection 
 1604362256 - INFO  --> getting a connection 
+1606600351 - INFO  --> getting a connection 
+1606600372 - INFO  --> getting a connection 
+1606600372 - INFO  --> getting userID with [jt@gmail.com] 
+1606600372 - INFO  --> getting a connection 
+1606600372 - INFO  --> Adding user [jt@gmail.com] 
+1606600372 - INFO  --> getting a connection 
+1606600373 - INFO  --> getting userID with [jt@gmail.com] 
+1606600373 - INFO  --> getting a connection 
+1606600373 - INFO  --> Adding user profile [John] [Travolta] 
+1606600387 - INFO  --> getting a connection 
+1606600389 - INFO  --> getting a connection 
+1606605282 - INFO  --> getting a connection 
+1606605283 - INFO  --> getting userID with [wesleyywong@gmail.com] 
+1606605876 - INFO  --> getting a connection 
+1606605876 - INFO  --> getting userID with [easdf] 
+1606605891 - INFO  --> getting a connection 
+1606605891 - INFO  --> getting userID with [] 
+1606607011 - INFO  --> getting a connection 
+1606607012 - INFO  --> getting userID with [we@g.com] 
+1606607012 - INFO  --> getting a connection 
+1606607013 - INFO  --> Adding user [we@g.com] 
+1606607013 - INFO  --> getting a connection 
+1606607013 - INFO  --> getting userID with [we@g.com] 
+1606607013 - INFO  --> getting a connection 
+1606607014 - INFO  --> Adding user profile [wesadf] [a] 

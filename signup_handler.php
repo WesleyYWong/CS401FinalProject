@@ -55,12 +55,12 @@
 
 
     $dao = new Dao();
-  
-    $dao->addUser($email, $_POST['pw']);
+    
+    $dao->addUser($email, hash('sha256' , $_POST['pw'] . "himalayanpinksalt"));
     $userID = $dao->getUserID($email);
     $dao->addProfile($_POST['fname'], $_POST['lname'], $userID);
     $_SESSION['good'][] = "Sucessfully registered an account, please log in";
-     //Redirect
+    //Redirect
     header("Location: /Signup.php" , true, 303);
     exit();
 

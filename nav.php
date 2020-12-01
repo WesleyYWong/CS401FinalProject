@@ -2,6 +2,8 @@
     <head>
         <link rel="stylesheet" type="text/css"  href="community.css">
         <link rel="shortcut icon" href="favico.ico">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet"> 
     </head>   
     <body>
         <div id = "sitetitle"><img src="favico.ico" alt="site logo" id="sitelogo"><h1>Community Connections</h1></div>

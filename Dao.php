@@ -9,7 +9,7 @@ class Dao {
   // private $pass = "hunter2";
   private $host = "us-cdbr-east-02.cleardb.com";
   private $db = "heroku_ac3edd1a10e476e";
-  private $user = "bdd22c69b79cd9";
+  private $user = "bdd22c69b79cd9"; 
   private $pass = "2810ef45";
   
   private $logger;
@@ -117,5 +117,5 @@ class Dao {
 
 
 }
-
+ 
 ?>

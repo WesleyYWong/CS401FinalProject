@@ -6,7 +6,7 @@
     $_SESSION['good'] = array();
 
     $dao = new Dao();
-    $retrievedid = $dao->getUser($_POST['email'],$_POST['pw']);
+    $retrievedid = $dao->getUser($_POST['email'],hash('sha256' , $_POST['pw'] . "himalayanpinksalt"));
     if ($retrievedid != NULL && $retrievedid > 0)
     {
         $_SESSION['authenticated'] = true;
@@ -14,8 +14,9 @@
         header("Location: /Postings.php");
     }
     else {
+        $_SESSION['bad'][] = "login failed";
         $_SESSION['authenticated'] = false;
-        header("Location: /Login.php");
+        header("Location: /Login.php", true, 303);
     }
     exit();
 
